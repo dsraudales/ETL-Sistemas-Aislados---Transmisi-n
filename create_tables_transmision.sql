@@ -16,7 +16,7 @@ GO
 -- Verificar si la tabla ya existe
 IF OBJECT_ID('dbo.Calidad_Transmision', 'U') IS NOT NULL
 BEGIN
-    PRINT '⚠️  La tabla Calidad_Transmision ya existe.';
+    PRINT '  La tabla Calidad_Transmision ya existe.';
     PRINT '    Si deseas recrearla, descomenta las siguientes líneas:';
     PRINT '    -- DROP TABLE dbo.Calidad_Transmision;';
     PRINT '';
